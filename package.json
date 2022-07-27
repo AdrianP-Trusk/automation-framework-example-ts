@@ -1,7 +1,7 @@
 {
   "name": "automation-framework-exmple-ts",
   "scripts": {
-    "test": "jest"
+    "test:unit": "jest --group=unit"
   },
   "devDependencies": {
     "@types/jest": "^28.1.6",

@@ -23,5 +23,5 @@ jobs:
           npm i
       - name: Run Jest unit tests
         run: |
-          jest --group=unit
+          npm run test:unit
       - run: echo "🍏 This job's status is ${{ job.status }}."
